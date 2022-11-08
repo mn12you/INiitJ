@@ -19,7 +19,7 @@ private GradeConverter converter;
     @Test
     public void testconvert2() {
         String expect="A";
-        String actual = converter.convert(90);
+        String actual = converter.convert(91);
         assertEquals(expect,actual);
     }
 }
