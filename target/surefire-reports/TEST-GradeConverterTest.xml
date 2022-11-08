@@ -64,8 +64,8 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="GradeConverterTest" name="testconvert1" time="0.002"/>
-  <testcase classname="GradeConverterTest" name="testconvert2" time="0.004">
+  <testcase classname="GradeConverterTest" name="testconvert1" time="0.003"/>
+  <testcase classname="GradeConverterTest" name="testconvert2" time="0.003">
     <failure message="expected:&lt;[A]&gt; but was:&lt;[Invalid]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[A]&gt; but was:&lt;[Invalid]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
